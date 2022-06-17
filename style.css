@@ -1,0 +1,74 @@
+body {
+padding: 50px;  
+background:  hsl(0, 0%, 95%); 
+}
+main {
+margin: 100px;
+}
+
+img {
+padding: 20px;
+}
+
+h1 {
+  font-family: Big Shoulders Display;
+  padding: 20px;
+  height: 5px;
+  margin-top: 1px;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+ padding: 20px; 
+ color: hsla(0, 0%, 100%, 0.75);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.flex-item-left {
+  background-color: hsl(31, 77%, 52%);
+  padding: 20px;
+  flex: 50%;
+  font-family: Lexend Deca;
+}
+
+.flex-item-right{
+  background-color: hsl(184, 100%, 22%);
+  padding: 20px;
+  flex: 50%;
+  font-family: Lexend Deca;
+}
+.flex-item-last {
+  background-color: hsl(179, 100%, 13%);
+  padding: 20px;
+  flex: 50%;
+  font-family: Lexend Deca;
+}
+
+@media (max-width: 1440px) {
+  .flex-container {
+    flex-direction: row;
+  }
+button {
+  background: hsl(0, 0%, 95%);
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 115px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
